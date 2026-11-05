@@ -1,0 +1,12 @@
+name: WitherSoundToggle
+version: '${pluginVersion}'
+main: net.enthusia.withersoundtoggle.WitherSoundTogglePlugin
+api-version: '1.21'
+description: Per-player toggle for the global Wither spawn sound.
+author: BadgersMC
+depend: [packetevents]
+commands:
+  withersounds:
+    description: Toggle the global Wither spawning sound for yourself.
+    usage: /withersounds [on|off|toggle|status]
+    aliases: [wsounds]
